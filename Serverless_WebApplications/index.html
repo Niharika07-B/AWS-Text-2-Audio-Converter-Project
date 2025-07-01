@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Speak AI - Text to Speech</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-robot"></i> Speak AI</h1>
+      <h3><i class="fas fa-microphone-alt"></i> Turn Your Text to Audio</h3>
+    </header>
+
+    <div class="benefits-container">
+      <div class="benefit">
+        <i class="fas fa-language"></i>
+        <h4>Multiple Languages</h4>
+        <p>Convert text to speech in 15 different languages with natural-sounding voices.</p>
+      </div>
+      <div class="benefit">
+        <i class="fas fa-bolt"></i>
+        <h4>Fast Processing</h4>
+        <p>Advanced AI algorithms ensure quick conversion of your text to high-quality audio.</p>
+      </div>
+      <div class="benefit">
+        <i class="fas fa-headphones"></i>
+        <h4>Easy Access</h4>
+        <p>Listen to your audio directly in the browser or download for offline use.</p>
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="form-group">
+        <label for="voiceSelected">
+          <i class="fas fa-user-voice"></i> Select Voice:
+        </label>
+        <div class="select-wrapper">
+          <select id="voiceSelected">
+            <option value="Joanna">Joanna - English (US)</option>
+            <option value="Matthew">Matthew - English (US)</option>
+            <option value="Amy">Amy - English (UK)</option>
+            <option value="Brian">Brian - English (UK)</option>
+            <option value="Maja">Maja - Polish</option>
+            <option value="Enrique">Enrique - Spanish</option>
+            <option value="Marlene">Marlene - German</option>
+            <option value="Mathieu">Mathieu - French</option>
+            <option value="Cristiano">Cristiano - Portuguese</option>
+            <option value="Liv">Liv - Norwegian</option>
+            <option value="Mizuki">Mizuki - Japanese</option>
+            <option value="Carla">Carla - Italian</option>
+            <option value="Carmen">Carmen - Romanian</option>
+            <option value="Tatyana">Tatyana - Russian</option>
+            <option value="Astrid">Astrid - Swedish</option>
+            <option value="Filiz">Filiz - Turkish</option>
+            <option value="Gwyneth">Gwyneth - Welsh</option>
+            <option value="Karl">Karl - Icelandic</option>
+          </select>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="postText">
+          <i class="fas fa-align-left"></i> Enter Your Text:
+        </label>
+        <textarea id="postText" placeholder="Type your text here..."></textarea>
+        <span id="charCounter">Characters: 0</span>
+      </div>
+
+      <div class="button-group">
+        <button id="sayButton" class="buttons">
+          <i class="fas fa-play"></i> Process
+        </button>
+        <span id="postIDreturned" class="message-display"></span>
+      </div>
+
+      <div class="button-group">
+        <button id="searchButton" class="buttons">
+          <i class="fas fa-sync-alt"></i> Refresh Table
+        </button>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <table id="posts">
+        <colgroup>
+          <col style="width:15%">
+          <col style="width:40%">
+          <col style="width:10%">
+          <col style="width:35%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Voice</th>
+            <th>Post</th>
+            <th>Status</th>
+            <th>Player</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table content will be populated by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="features-container">
+      <div class="feature">
+        <div class="feature-number">15+</div>
+        <div class="feature-text">LANGUAGES</div>
+      </div>
+      <div class="feature">
+        <div class="feature-number">99%</div>
+        <div class="feature-text">ACCURACY</div>
+      </div>
+      <div class="feature">
+        <div class="feature-number">24/7</div>
+        <div class="feature-text">AVAILABILITY</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Speak AI | Text-to-Speech Converter | Powered by Machine Learning</p>
+    </footer>
+  </div>
+
+  <!-- Theme toggle button -->
+  <button id="themeToggle" aria-label="Toggle dark/light theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

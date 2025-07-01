@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Speak AI - Error</title>
+  <style>
+    .error-container {
+      text-align: center;
+      padding: 3rem 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .error-icon {
+      font-size: 5rem;
+      color: var(--error-color);
+      margin-bottom: 1.5rem;
+      animation: pulse 2s infinite;
+    }
+    
+    .error-title {
+      font-size: 2rem;
+      color: var(--error-color);
+      margin-bottom: 1rem;
+    }
+    
+    .error-message {
+      font-size: 1.1rem;
+      color: var(--text-color);
+      margin-bottom: 2rem;
+    }
+    
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+    
+    .back-button:hover {
+      background-color: var(--primary-light);
+      transform: translateY(-2px);
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-robot"></i> Speak AI</h1>
+    </header>
+
+    <div class="error-container">
+      <i class="fas fa-exclamation-triangle error-icon"></i>
+      <h2 class="error-title">404 - Page Not Found</h2>
+      <p class="error-message">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+      
+      <a href="index.html" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back to Home
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Speak AI | Text-to-Speech Converter | Powered by Machine Learning</p>
+    </footer>
+  </div>
+</body>
+</html>
