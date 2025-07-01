@@ -1,0 +1,58 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PollyAccess",
+			"Effect": "Allow",
+			"Action": [
+				"polly:*"
+			],
+			"Resource": "*",
+			"Condition": {
+				"StringEquals": {
+					"aws:RequestedRegion": "us-east-1"
+				}
+			}
+		},
+		{
+			"Sid": "SNSAccess",
+			"Effect": "Allow",
+			"Action": [
+				"sns:*"
+			],
+			"Resource": "*",
+			"Condition": {
+				"StringEquals": {
+					"aws:RequestedRegion": "us-east-1"
+				}
+			}
+		},
+		{
+			"Sid": "DynamoDBAccess",
+			"Effect": "Allow",
+			"Action": [
+				"dynamodb:*"
+			],
+			"Resource": "*",
+			"Condition": {
+				"StringEquals": {
+					"aws:RequestedRegion": "us-east-1"
+				}
+			}
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"logs:*"
+			],
+			"Resource": "arn:aws:logs:*:*:*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:*"
+			],
+			"Resource": "arn:aws:s3:::*"
+		}
+	]
+}
