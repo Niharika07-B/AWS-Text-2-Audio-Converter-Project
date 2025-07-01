@@ -220,6 +220,11 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
+## Show your support
+Give a ⭐ if you like this website!
+
+---
+
 ✅ *Following these steps will make your app more secure, reliable, and cost-aware.*
 
 
