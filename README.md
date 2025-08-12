@@ -1,4 +1,4 @@
-## 🎙️Speak AI — A Text-to-Speech Web App using AWS☁️
+# 🎙️Speak AI — A Text-to-Speech Web App using AWS☁️
 
 _✨ Turn your words into voice. In real time. In any accent. Straight from the cloud._
 
@@ -7,7 +7,7 @@ Type a message, pick a voice, and within seconds, hear it spoken out loud using 
 
 ---
 
-## 🌍 Live Demo
+# 🌍 Live Demo
 
 🎧 Try the app in action:  
 🔗 [Click here to launch Speak AI](https://frontend-text2speech-niharika.s3.us-east-1.amazonaws.com/index.html)
@@ -16,7 +16,7 @@ Type a message, pick a voice, and within seconds, hear it spoken out loud using 
 
 ---
 
-## 🧠 What is Speak AI?
+# 🧠 What is Speak AI?
 Speak AI is more than just a text-to-speech app — it's a cloud-native, fully serverless voice generation pipeline built using AWS.
 
 Behind the scenes, it uses a suite of AWS services working in harmony:
@@ -33,7 +33,7 @@ Behind the scenes, it uses a suite of AWS services working in harmony:
 
 ---
 
-## ⚡ Quick Features
+# ⚡ Quick Features
 
      ✅ Enter text in your browser
      
@@ -54,14 +54,14 @@ Behind the scenes, it uses a suite of AWS services working in harmony:
 
 ---
 
-## 🧬 Architecture at a Glance
+# 🧬 Architecture at a Glance
 
 ![AWS_Architecture_Diagram](https://github.com/user-attachments/assets/4285f14d-bd3f-4910-bbd8-b60de3e773be)
 
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 AWS-Text-2-Audio-Converter-Project/
@@ -84,7 +84,7 @@ AWS-Text-2-Audio-Converter-Project/
 
 ---
 
-## 🛠️ AWS Services Used
+# 🛠️ AWS Services Used
 
 | AWS Service     | Purpose                                                        |
 |-----------------|--------------------------------------------------------------- |
@@ -98,7 +98,7 @@ AWS-Text-2-Audio-Converter-Project/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 _____🔧 Prerequisites_____
 
@@ -110,9 +110,9 @@ _____🔧 Prerequisites_____
   
 ---
 
-## 🧱 Project Overview: AWS Text-to-Audio Converter
+# 🧱 Project Overview: AWS Text-to-Audio Converter
 
-### 🎨 Frontend (Static Web)
+## 🎨 Frontend (Static Web)
 
 Files: `index.html`, `styles.css`, `scripts.js`
 
@@ -123,7 +123,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
-### 🔧 Backend (Serverless + AWS)
+## 🔧 Backend (Serverless + AWS)
 
 #### 🛠️ API Gateway
 - Exposes secure RESTful endpoints for frontend interactions.
@@ -131,7 +131,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 - ![abcd3](https://github.com/user-attachments/assets/223c12b8-161c-47fe-88b1-f7a8aa8cb67d)
 
 
-#### 🧠 Lambda Functions
+## 🧠 Lambda Functions
 
 - `add_new_posts.py` 📤  
   ➤ Receives new text input  
@@ -151,7 +151,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
-### 🗄️ Data & Event Infrastructure
+# 🗄️ Data & Event Infrastructure
 
 - 🧾 **DynamoDB**
   - Stores: `text`, `voice`, `status`, `audio_url`
@@ -173,7 +173,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
  
-## 📸 Project Screenshots
+# 📸 Project Screenshots
 
 ![abcd4](https://github.com/user-attachments/assets/25c40c84-7a3b-4b2d-80b9-d95ce99619cb)
 
@@ -182,7 +182,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
-## 📝 Notes to remember
+# 📝 Notes to remember
 
  **Region**:  
   🔹 *Make sure all AWS services (`Lambda`, `DynamoDB`, `S3`, `SNS`, `Polly`) are deployed in the* `us-east-1` *region for seamless integration.*
@@ -192,7 +192,7 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
-### ⚠️ Before Public Deployment, Consider These Improvements:
+# ⚠️ Before Public Deployment, Consider These Improvements:
 
 **1️⃣ Input Validation**
 - 🔸 Sanitize text input to prevent injection attacks or invalid data.
@@ -220,13 +220,10 @@ Files: `index.html`, `styles.css`, `scripts.js`
 
 ---
 
-## Show your support
+# Show your support
 Give a ⭐ if you like this website!
 
 ---
-
-✅ *Following these steps will make your app more secure, reliable, and cost-aware.*
-
 
 
 
