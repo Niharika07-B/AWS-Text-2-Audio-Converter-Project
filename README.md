@@ -65,7 +65,7 @@ Behind the scenes, it uses a suite of AWS services working in harmony:
 ---
 
 # 🧬 Architecture at a Glance
-
+ 
 ![AWS_Architecture_Diagram](https://github.com/user-attachments/assets/4285f14d-bd3f-4910-bbd8-b60de3e773be)
 
 
