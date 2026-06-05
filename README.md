@@ -24,6 +24,10 @@ Type a message, pick a voice, and within seconds, hear it spoken out loud using 
 
 > No installs. Just your browser, some text, and a voice from the cloud!
 
+☁️ Successfully deployed and hosted the application on AWS using Amazon S3 Static Website Hosting, AWS Lambda, Amazon Polly, SNS, and DynamoDB in a fully serverless architecture.
+
+*(😔 The AWS account has expired, so the live demo is no longer accessible. Please refer to the screenshots below to view the application's functionality.)*
+
 ---
 
 # 🧠 What is Speak AI?
